@@ -44,14 +44,15 @@ namespace FizzBuzzMVC.Controllers
                 }
                 else if (i % toNum1 == 0)
                 {
-                    output += ($"{i} Fizz, ");
+                    output += "Fizz, ";
                 }
                 else if (i % toNum2 == 0)
                 {
-                    output += ($"{i} Buzz, ");
+                    output += "Buzz, ";
                 }
                 else
                 {
+
                     output += $"{i}, ";
                 }
             }
