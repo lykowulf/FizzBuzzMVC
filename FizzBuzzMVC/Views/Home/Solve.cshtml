@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Solve";
+}
+<div class="container">
+    <div class="row">
+        <div class="col text-center">
+            <h1>FizzBuzz</h1>
+        </div>
+    </div>
+    <form asp-action="Solve">
+        <div class="row">
+            <div class="col"><input type="number" name="Fizz"/></div>
+            <div class="col"><input type="number" name="Buzz"/></div>
+            <div><button class="btn btn-dark" type="submit">Click me</button></div>
+        </div>
+    </form>
+</div>
+<hr />
+
+<div class="row">
+    <div class="col">
+        @ViewData["Output"]
+    </div>
+</div>
+    
